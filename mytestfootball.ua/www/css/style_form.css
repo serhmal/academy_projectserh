@@ -1,0 +1,37 @@
+/* CSS Document */
+body	{
+		font-family: Arial;
+		font-size: 14px;
+		width:450px; 
+		margin:100px 50px 5px 150px; 
+		
+			}
+fieldset{
+		background:#CCCCB1;
+		border-radius: 5px;
+		
+		}
+input	{
+		border-radius: 5px;
+			} 
+label	{
+ 		display: block; 
+		float: left; 
+		width: 110px; 
+ 		padding: 0 10px; 
+		margin: 18px 0 0; 
+		text-align: left;
+		
+			} 
+#submit	{
+ 		float:right; 
+		margin:5px 50px 5px 0;
+			}
+#back 	{
+		float:right; 
+		margin:5px 10px 5px 0;
+	}
+.colortext {
+     	color: red;
+			}
+

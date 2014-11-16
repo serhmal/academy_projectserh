@@ -1,0 +1,161 @@
+/* CSS Document */
+			body 	{
+				background: url(/img/018-q74mg-1050-korekt.jpg);
+				background-repeat: no-repeat;
+				size: 500px 600px;
+				margin-top: 15px; /*відступ зверху*/
+				position: relative;	
+				background-position: center top;
+				background-attachment: fixed;
+				}
+        	#content {
+				padding: 40px 2px;/*відступ зверху*/
+				min-height: 600px;
+				width: 800px;
+				margin: 0 auto;
+				background: #B3E874;
+				position: relative ;
+				}
+			.main_menu { 
+				background: linear-gradient(to bottom, #474746, #252523) #363634;
+				border-radius: 3px;
+				margin: 50px 0px 2px;
+				min-height: 33px;
+				position: relative;
+				color:#FFFFFF;
+				}
+			.menu_list { 
+				float: left;
+				border: 1px outset #ffffff;
+				border-radius: 3px;
+				font-family: arial; 
+				font-size: 90%;
+				font-style: inherit;
+				font-variant: inherit;
+				font-weight: inherit;
+				line-height: inherit;
+				margin: 1px;
+				padding: 3px;
+				width: 80px;
+				text-align: center;
+				display: block;
+				}	
+					
+			ul {
+    			display: block;
+   				 margin: 0;
+    			padding: 0;
+   				list-style: none;
+				}
+			ul:after {
+   				display: block;
+    			content: ' ';
+    			clear: both;
+    			float: none;
+				}
+			ul.menu > li {
+    			float: left;
+    			position: relative;
+				}
+			ul.menu > li > a {
+    			display: block;
+    			padding: 6px;
+    			color: white;
+   	 			background-color: inherit;
+    			text-decoration: none;
+				}
+			ul.menu > li > a:hover {
+    			background-color: #ADADAD;
+				border-radius: 3px;
+				}
+			ul.submenu {
+    			display: none;
+    			position: absolute;
+    			width: 85px;
+    			top: 35px;
+    			left: 5px;
+				background-color: white;
+    			border: 1px solid black;
+				border-radius: 5px;
+				z-index: 2;
+				}
+			ul.submenu > li {
+    			display: block;
+				
+				}
+			ul.submenu > li > a {
+    			display: block;
+    			padding: 2px;
+    			color: white;
+    			background-color: #ADADAD;
+    			text-decoration: none;
+				text-align: left;
+				}
+			ul.submenu > li > a:hover {
+    			text-decoration: underline;
+				}
+
+			ul.menu > li:hover > ul.submenu {
+    			display: block;
+				}
+			.colortext {
+     			color: red; /* Червоний колір виділення */
+   					}	
+				/* Для лівого меню*/
+			#menu_left_content {
+			
+				background: linear-gradient(to bottom, #474746, #252523) #363634;
+				border-radius: 3px;
+				margin: 2px 0px 15px;
+				
+				min-height: 400px;
+				width: 169px;
+				position: relative;
+				color:#FFFFFF;
+				float: left;
+				border: 2px outset #ffffff;
+					}
+					
+			#menu_right_content {
+				background: linear-gradient(to bottom, #474746, #252523) #363634;
+				border-radius: 3px;
+				margin: 2px 0px 15px;
+				
+				min-height: 400px;
+				width: 169px;
+				position: relative;
+				color:#FFFFFF;
+				float: left;
+				border: 2px outset #ffffff;
+			
+					}
+				
+					
+			#menu_middle_content {
+			
+				background: linear-gradient(to bottom, #474746, #252523) #363634;
+				border-radius: 3px;
+				margin: 2px 0px 15px;
+				
+				min-height: 400px;
+				width: 450px;
+				
+				color:#FFFFFF;
+				float: left;
+				border: 2px outset #ffffff;
+				z-index: 0;
+				}		
+			h4 	{
+				font-family: arial;
+				color:#FFFFFF;
+				font-size: 13px;
+				
+				}
+					
+					
+        	
+        
+        	tr.menyu:hover {background: #fc0; /* зміна кольору фону рядків меню */ }
+        	
+        	td.menyu-img:hover {background: #F4090C; /* зміна кольору фону стовпців меню картинок*/ }
+

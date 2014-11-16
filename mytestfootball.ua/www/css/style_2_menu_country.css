@@ -1,0 +1,22 @@
+
+/* CSS Document */
+	ul.menu_list_league {
+			padding: 5px;
+    		background-color: #ADADAD;
+			font-size: 15px;
+			color: white;
+				}
+	ul.menu_list_trophy {
+			padding: 5px;
+    		background-color: #ADADAD;
+			font-size: 15px;
+			color: white;
+				}
+	.colortext {
+     		color: red;
+				}
+	
+	.color_league {
+     		color: white;
+				}
+	
